@@ -11,8 +11,8 @@ https://cdqugz6hod.execute-api.ap-northeast-1.amazonaws.com	x8tz9v	enabled	2022-
 ### ■リクエストコマンド
 
 #### ・Put
-  curl -v -X "PUT" -H "Content-Type: application/json" -d "{\"id\": \"{id}\", \"price\": {price}, \"name\": \"{name}\"}" https://cdqugz6hod.execute-api.ap-northeast-1.amazonaws.com/items
-
+  curl -v -X "PUT" -H "Content-Type: application/json" -d "{"id": "{id}", "price": {price}, "name": "{name}"}" https://cdqugz6hod.execute-api.ap-northeast-1.amazonaws.com/items
+  
 #### ・Get
   curl -v -X "GET" -H "Content-Type: application/json"  https://cdqugz6hod.execute-api.ap-northeast-1.amazonaws.com/items
  
